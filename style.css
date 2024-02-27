@@ -81,3 +81,8 @@ button:hover {
 #sign-up {
     width: 80px;
 }
+
+.information-images {
+    display:flex;
+    justify-content: space-between;
+}
