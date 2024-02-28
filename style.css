@@ -88,7 +88,8 @@ button:hover {
 }
 
 #sign-up {
-    width: 80px;
+    width: 90px;
+    height: 25px;
 }
 
 .lower-body {
@@ -107,6 +108,7 @@ button:hover {
     padding-inline: 300px;
     display:flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .information-images img {
