@@ -10,18 +10,25 @@ body {
 
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
+    padding-block: 20px;
     font-size: 24px;
-    margin-bottom: 100px;
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    margin-left: auto;
     gap: 16px;
+}
+
+.links a {
+    font-size: 16px;
+    color: #F9FAF8;
+}
+
+links:hover {
+    color:#d2d3d1;
 }
 
 .logo {
@@ -77,6 +84,7 @@ button:hover {
 .right img {
     width:400px;
     height:275px;
+    border-radius: 2%;
 }
 
 #sign-up {
@@ -101,8 +109,68 @@ button:hover {
     justify-content: space-between;
 }
 
-.information-text{
+.information-images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 4%;
+}
+
+.information-text {
     display: flex;
     justify-content: center;
-    color: #1F2937
+    color: #1F2937;
+    width: 200px;
+    text-align: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #E5E7EB;
+    font-size: 37px;
+    font-style: italic;
+}
+
+.quote {
+    display: flex;
+    padding-inline: 560px;
+    margin-bottom: 0px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 550px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bolder;
+    margin: 0px 30px 0px 0px;
+    padding-bottom: 20px;
+}
+
+.signup-container {
+    display:flex;
+    justify-content: space-around;
+    margin: 40px 300px 20px 300px;
+    padding-block: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.signup-text {
+    color:#F9FAF8;
+    margin: 0;
+}
+
+.signup-button {
+    margin-block: auto;
+    border: 2px solid #F9FAF8;
+    width: 10%;
+}
+
+#signup-header-text {
+    font-size: 24px;
 }
