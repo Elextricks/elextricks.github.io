@@ -156,7 +156,7 @@ button:hover {
 .signup-container {
     display:flex;
     justify-content: space-around;
-    margin: 40px 300px 20px 300px;
+    margin: 60px 300px 60px 300px;
     padding-block: 20px;
     background-color: #3882F6;
     border-radius: 10px;
@@ -176,3 +176,13 @@ button:hover {
 #signup-header-text {
     font-size: 24px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 20px;
+}
+
