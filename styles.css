@@ -1,0 +1,37 @@
+.container{
+    background: lightGrey;
+    width: max-content;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.secondary {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.display{
+    background-color: darkGrey;
+    height: 75px;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.buttons{
+    max-width: 400px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+button{
+    flex: 1 25%;
+  } 
