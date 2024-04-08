@@ -85,3 +85,4 @@ function performNumber(number) {
     //Display equation in seconday display
     secondary.textContent = equation;
 }
+
